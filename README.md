@@ -14,7 +14,23 @@ For full documentation, see [skills/banana/SKILL.md](skills/banana/SKILL.md).
 
 ## Installation
 
-This repository can be installed as a Claude Code skill. See the installation instructions in the banana-claude repository: https://github.com/AgriciDaniel/banana-claude#installation
+Install the `banana` skill into `~/.claude/skills/banana` with a single command, then restart Claude Code and run `/banana setup`.
+
+### macOS · Linux · WSL · Git Bash
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/binbuttiipad/B/main/install.sh | bash
+```
+
+### Windows · PowerShell 5.1+
+
+```powershell
+irm https://raw.githubusercontent.com/binbuttiipad/B/main/install.ps1 | iex
+```
+
+If the skill is already installed, re-run with the overwrite flag: `bash install.sh --force` or `powershell -ExecutionPolicy Bypass -File install.ps1 -Force` from a local clone (or `... install.sh | bash -s -- --force` for the curl one-liner).
+
+For the upstream project and full documentation, see the banana-claude repository: https://github.com/AgriciDaniel/banana-claude#installation
 
 ## Commands
 
